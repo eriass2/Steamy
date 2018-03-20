@@ -1,5 +1,6 @@
 a {color: #575756;}
 a:hover {color: #868686;}
 .active a {border-bottom: 4px solid #ea5b28;}
-body {background-image: url("bg.jpg"); max-width: 750px; margin: auto; text-align: left;}
+body {background-image: url(bg.jpg),
+      url(bg-saser.jpg); background-repeat: no-repeat;max-width: 750px; margin: auto; text-align: left;}
 img .line-breake-dumpling {display: block; margin-left: auto; margin-right: auto;}
