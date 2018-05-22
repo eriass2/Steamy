@@ -1,7 +1,16 @@
 a {color: #575756;}
 a:hover {color: #868686;}
 .navbar-light .navbar-nav .nav-link.active  {color:  #ea5b28; }
-body {background-image: url(../Image/bakgrund.png);  background-size: cover; background-repeat: repeat-y; max-width: 750px; margin: auto; text-align: left;}
+body {
+	background-image: url(../Image/bakgrund.png);  
+	background-size: cover; 
+	background-repeat: repeat-y; 
+	max-width: 750px; 
+	margin: auto; 
+	text-align: left;
+	font-family: 'Sintony', sans-serif;
+}
+
 .line-breake-dumpling {max-height: 1.2em; max-width: 100%;}
 
 .navbar {
@@ -9,22 +18,43 @@ body {background-image: url(../Image/bakgrund.png);  background-size: cover; bac
 	padding: 0px;
 }
 
+.navbar-brand img{
+	margin-top: -0.3em;
+	margin-bottom: -0.3em;
+	width: 200px;
+}
+
+h1,
+ h2,
+	h3,
+	 h4,
+	  h5, h6{
+	font-family: 'Baloo', cursive;
+
+}
 
 td {
 	padding: 1em;
 }
 
-.navbar-brand img{
-	width: 200px;
+.poster{
+	max-width: 20em;
 }
+
 @media only screen and (max-width: 600px) {
 	.navbar-brand img{
 		width: 100px;
 	}
-  }
+	body{
+		background-size: contain;
+	}
 
-  @media only screen and (min-width: 600px) {
+	}
+	
+@media only screen and (min-width: 600px) {
 	.navbar-collapse{
 		flex-grow:0;
 	}
-  }
+
+
+}
