@@ -1,15 +1,30 @@
 a {color: #575756;}
 a:hover {color: #868686;}
-.active a {border-bottom: 4px solid #ea5b28;}
-body {background-image: url(../Image/pinnar1.png),
-      url(../Image/sauce.png); background-position: top, bottom;  background-size: contain, contain; background-repeat: no-repeat, no-repeat; max-width: 750px; margin: auto; text-align: left;}
+.navbar-light .navbar-nav .nav-link.active  {color:  #ea5b28; }
+body {background-image: url(../Image/bakgrund.png);  background-size: contain; background-repeat: repeat-y; max-width: 750px; margin: auto; text-align: left;}
 .line-breake-dumpling {max-height: 1.2em; max-width: 100%;}
 
 .navbar {
-	background-image: url(../Image/bg.jpg)
+	background: rgba(220, 220, 220, 0.9) !important;
+	padding: 0px;
 }
 
 
 td {
 	padding: 1em;
 }
+
+.navbar-brand img{
+	width: 200px;
+}
+@media only screen and (max-width: 600px) {
+	.navbar-brand img{
+		width: 100px;
+	}
+  }
+
+  @media only screen and (min-width: 600px) {
+	.navbar-collapse{
+		flex-grow:0;
+	}
+  }

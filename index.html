@@ -7,40 +7,56 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" type="text/css" href="Style/bootstrap.css">
-
-	crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="Style/Steamy.css">
+	<link rel="stylesheet" type="text/css" href="Style/bootstrap.css"> 	
+	<link rel="stylesheet" type="text/css" href="Style/steamy.css">
 	<title>Steamy</title>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-	<nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top d-flex justify-content-center" ><!-- bg-dark-->
+	<nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top d-flex justify-content-center">
+		<!-- bg-dark-->
 		<!-- Brand/logo -->
 		<a class="navbar-brand" href="#">
-			<img src="Image/steamy_logo.png" alt="logo" style="width: 40px;" >
+			<img src="Image/steamy_logo.png" alt="logo">
 		</a>
+
 		<!-- Links -->
-		<ul class="navbar-nav">
-			<li class="nav-item">
-				<a class="nav-link active" href="#dumpling">Dumplings</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#saser">Såser</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#omoss">Om oss</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link " href="#pr">Butiks matrial</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link " href="#contact">kontakt</a>
-			</li>
-		</ul>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link active" href="#dumpling">Dumplings</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#saser">Såser</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#omoss">Om oss</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link " href="#pr">Butiks matrial</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link " href="#contact">kontakt</a>
+				</li>
+			</ul>
+		</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 	</nav>
-	<div class="container-fluid" style="margin-top:80px">
+	<div class="container-fluid" style="margin-top:120px">
 		<div id="dumpling">
+			<div class="row text-center">
+				<div class="col-12">
+					<h1>Testa Steamy dumplings och få nya matvanor.</h1>
+					<p>
+						Steamy dumplings är packade i ett platstråg med modiﬁerad atmosfär för god hållbarhet. Varje tråg innehåller 8st dumplings,
+						en lagom portion för de ﬂesta. De ﬁnns med fem olika fyllningar: Blandfärs, Kyckling, Anka, Lax och Vegetarisk. Se
+						våra tillagningstips på baksidan av förpackningarn.
+					</p>
+				</div>
+
+			</div>
 			<div class="row">
 				<div class="col-6">
 					<img class="img-fluid" src="Image/kyckling.png">
@@ -59,7 +75,7 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-6">
-					<b>          Tillagningstips kylda Dumplings 8st
+					<b> Tillagningstips kylda Dumplings 8st
 					</b>
 					<table>
 						<tr>
@@ -67,8 +83,7 @@
 								<img src="Image/symbol_stekp.png">
 							</td>
 							<td>
-								<b>Steka: </b>Allra godast blir Steamy Dumplings om du steker dem i olja i en teﬂonpanna i 6-7 minuter på medelhög
-								värme.
+								<b>Steka: </b>Allra godast blir Steamy Dumplings om du steker dem i olja i en teﬂonpanna i 6-7 minuter på medelhög värme.
 							</td>
 						</tr>
 						<tr>
@@ -84,8 +99,8 @@
 								<img src="Image/symbol_anga.png">
 							</td>
 							<td>
-								<b>Ånga: </b>Sjud Dumplings på ett blad isbergssallad (så att de inte fastnar) i en kastrull under lock med 1
-								dl vatten i 10 min.
+								<b>Ånga: </b>Sjud Dumplings på ett blad isbergssallad (så att de inte fastnar) i en kastrull under lock med 1 dl vatten
+								i 10 min.
 							</td>
 						</tr>
 						<tr>
@@ -101,8 +116,8 @@
 								<img src="Image/symbol_spis.png">
 							</td>
 							<td>
-								<b>Ugn: </b>ASätt ugnen på 200°C . Pensla plåt och umplings med matolja. Värm i 8 minuter. – Nudlar eller ris
-								passar bra till.
+								<b>Ugn: </b>ASätt ugnen på 200°C . Pensla plåt och umplings med matolja. Värm i 8 minuter. – Nudlar eller ris passar
+								bra till.
 								<b>Smaklig Måltid!</b>
 							</td>
 						</tr>
@@ -122,8 +137,8 @@
 				<b>Fem såsvarianter för dumplings som även passar utmärkt till kött, ﬁsk och fågel.</b>
 				<img class="img-fluid" src="Image/burkar.png">
 				<p>Fantastiskt gott och enkelt. Dippa Steamy dumplings direkt i burken. Såserna passar även utmärkt som dip, t.ex. till
-					chicken nuggets, morotsstavar, pommes frites, samt till andra grönsaker som broccoli och blomkål m.m. Våra såser
-				är fria från gluten.</p>
+					chicken nuggets, morotsstavar, pommes frites, samt till andra grönsaker som broccoli och blomkål m.m. Våra såser är
+					fria från gluten.</p>
 			</div>
 		</div>
 		<div class="row">
@@ -132,23 +147,22 @@
 		<div class="row">
 			<div id="omoss" class="col-sm">
 				<div style="text-align: center;">
-					<img  class="img-fluid center" src="Image/emblem.png">
+					<img class="img-fluid center" src="Image/emblem.png">
 
 					<h1>Vår vision med Steamy dumplings</h1>
 				</div>
 
 				<b>(Denna text ska skrivas om) Vi i västvärlden önskar i allt högre grad variation av måltidsupplevelsen och nya genuina
-					livsmedel. Nu har vi upptäckt dumplings och de är därmed den senaste inﬂuensen och favoriten från Asien. Som ett
-					exempel så har försäljningen i Storbritannien ökat med 60 % varje år under de fyra senaste åren. Nu står Sverige
-				på tur!</b>
+					livsmedel. Nu har vi upptäckt dumplings och de är därmed den senaste inﬂuensen och favoriten från Asien. Som ett exempel
+					så har försäljningen i Storbritannien ökat med 60 % varje år under de fyra senaste åren. Nu står Sverige på tur!</b>
 				<p>Steamy Dumplings säljs portionsförpackade i kyldisken hos välsorterade handlare. Om du inte hittar några i din butik
 					så fråga gärna efter dem. Våra dumplings ﬁnns med fyra olika fyllningar, vegetarisk, kyckling, lax eller blandfärs.
-					De har en låg fett- socker- och salthalt. De är helt enkelt en hälsosam måltid och tillsammans med våra dip-såser
-				dessutom en mycket delikat sådan.</p>
+					De har en låg fett- socker- och salthalt. De är helt enkelt en hälsosam måltid och tillsammans med våra dip-såser dessutom
+					en mycket delikat sådan.</p>
 				<p>Ett absolut nödvändigt tillbehör till dumplings är dip-såser med lite karaktär. Steamy Sauce ﬁnns i fyra olika varianter,
-					Original Dumpling Sauce, Soy Sauce with Ginger, Plum & Ginger Sauce samt Teriyaki Chili. Du kan köpa dem i 40 ml
-					dip-burkar, lagom för den färdigpackade portionen eller i 250 ml ﬂaskor till hushållet. Steamy såserna passar även
-				utmärkt till många andra maträtter än dumplings.</p>
+					Original Dumpling Sauce, Soy Sauce with Ginger, Plum & Ginger Sauce samt Teriyaki Chili. Du kan köpa dem i 40 ml dip-burkar,
+					lagom för den färdigpackade portionen eller i 250 ml ﬂaskor till hushållet. Steamy såserna passar även utmärkt till
+					många andra maträtter än dumplings.</p>
 				<p>
 					<b>Vänligen</b>
 					The Steamy Team
@@ -228,14 +242,17 @@
 		</div>
 		<div class="row" id="contact">
 			<div class="col-12 text-center">
-				<h1>Mer information och kontakt</h1><br/>
-				<b>Kontakta oss gärna angående vårt Dumplings-koncept:</b><br>
-				<b>Mats Holmstrand / Sales Manager</b><br>
-				<p>mats@steamy.se<br>
-				Telefon 070 651 41 75</p>
+				<h1>Mer information och kontakt</h1>
+				<br/>
+				<b>Kontakta oss gärna angående vårt Dumplings-koncept:</b>
+				<br>
+				<b>Mats Holmstrand / Sales Manager</b>
+				<br>
+				<p>mats@steamy.se
+					<br> Telefon 070 651 41 75</p>
 				<p>
-					<b>Steamy AB </b>Frejgatan 58, 113 28 Stockholm. Sverige<br>
-				Org nr: 559013-0737</p>
+					<b>Steamy AB </b>Frejgatan 58, 113 28 Stockholm. Sverige
+					<br> Org nr: 559013-0737</p>
 			</div>
 		</div>
 	</div>
@@ -243,8 +260,11 @@
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-	crossorigin="anonymous"></script>
-	<script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	 crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+	 crossorigin="anonymous"></script>
 </body>
 
 </html>
