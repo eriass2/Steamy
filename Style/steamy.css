@@ -1,7 +1,7 @@
 a {color: #575756;}
 a:hover {color: #868686;}
 .navbar-light .navbar-nav .nav-link.active  {color:  #ea5b28; }
-body {background-image: url(../Image/bakgrund.png);  background-size: contain; background-repeat: repeat-y; max-width: 750px; margin: auto; text-align: left;}
+body {background-image: url(../Image/bakgrund.png);  background-size: cover; background-repeat: repeat-y; max-width: 750px; margin: auto; text-align: left;}
 .line-breake-dumpling {max-height: 1.2em; max-width: 100%;}
 
 .navbar {
