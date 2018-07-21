@@ -70,3 +70,11 @@ td {
 	/* Give negative margin of your fixed element */
 	visibility: hidden;
 }
+
+#saser .row {
+	padding: 0.5em;
+}
+
+.tillagningstips{
+	font-size: 0.8rem;
+}
